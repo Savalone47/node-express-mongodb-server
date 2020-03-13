@@ -6,6 +6,6 @@ const app = express();
 consign()
     .include("models")
     .then("libs/middlewares.js")
-    .then("routes")
     .then("libs/boot.js")
+    .then("routes")
     .into(app);

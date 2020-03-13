@@ -3,8 +3,8 @@ module.exports = app =>{
         findAll: (params, callback)=>{
             return callback([
                 {title: "Build Node Api"},
-                {gone: "lalala" }
-            ])
+                {programmer: "Josue Yenga" }
+            ]);
         }
-    }
-}
+    };
+};
