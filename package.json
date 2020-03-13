@@ -1,12 +1,22 @@
 {
   "name": "Build_Node_Api",
   "version": "1.0.0",
-  "description": "Build Node Api",
+  "description": "Build Node Api to Es6 and Es7",
   "main": "app.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node app.js"
   },
-  "keywords": ["Node.js","express.js","Mongodb"],
+  "keywords": [
+    "Node.js",
+    "express.js",
+    "Mongodb"
+  ],
   "author": "savalone47",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.5.0"
+  }
 }
