@@ -1,0 +1,12 @@
+{
+  "name": "Build_Node_Api",
+  "version": "1.0.0",
+  "description": "Build Node Api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Node.js","express.js","Mongodb"],
+  "author": "savalone47",
+  "license": "ISC"
+}
