@@ -1,9 +1,8 @@
 {
   "name": "Build_Node_Api",
   "version": "1.0.0",
-  "description": "Build Node Api to Es6 and Es7",
+  "description": "Build Node Api",
   "main": "app.js",
-  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "babel-node app.js"
